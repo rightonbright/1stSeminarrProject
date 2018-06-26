@@ -253,103 +253,114 @@
         android:background="#e2e3e3"
         />
 
+
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+
 
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="48dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/image_profile"
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/pic1"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="8dp"
-                    />
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="pikachu"
-                    android:textSize="12sp"
-                    android:layout_toRightOf="@+id/image_profile"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="8dp"
-                    />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/points"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
-                    />
 
-            </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/pikapika"
-                />
-        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/image_profile"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/pic1"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="48dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pikachu"
+                            android:textSize="12sp"
+                            android:layout_toRightOf="@+id/image_profile"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            />
 
-                <ImageView
-                    android:id="@+id/image_profile2"
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/pic1"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="8dp"
-                    />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/points"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="16dp"
+                            />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="bugi"
-                    android:textSize="12sp"
-                    android:layout_toRightOf="@+id/image_profile2"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="8dp"
-                    />
+                    </RelativeLayout>
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/pic4"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
-                    />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/pikapika"
+                        />
+                </LinearLayout>
 
-            </RelativeLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp">
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/pikapika"
-                />
-        </LinearLayout>
+                        <ImageView
+                            android:id="@+id/image_profile2"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/pic4"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            />
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bugi"
+                            android:textSize="12sp"
+                            android:layout_toRightOf="@+id/image_profile2"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="8dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/points"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="16dp"
+                            />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/pic4"
+                        />
+                </LinearLayout>
+
+    </LinearLayout>
     </ScrollView>
-
 
 </LinearLayout>
